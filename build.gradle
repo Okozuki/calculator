@@ -37,3 +37,9 @@ jacocoTestCoverageVerification {
           }
      }
 }
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "Calculator"
+  }
+}
